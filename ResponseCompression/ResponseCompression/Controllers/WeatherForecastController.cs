@@ -1,10 +1,11 @@
 using Microsoft.AspNetCore.Mvc;
-using ResponseCompression.Pipeline;
+using ResponseCompression.FilterMiddleware;
 
 namespace ResponseCompression.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [MiddlewareFilter(typeof(ChecagemIndisponibilidadePipeline))]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
