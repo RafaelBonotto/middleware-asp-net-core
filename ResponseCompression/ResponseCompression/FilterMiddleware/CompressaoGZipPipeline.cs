@@ -1,4 +1,4 @@
-﻿namespace ResponseCompression.Pipeline
+﻿namespace ResponseCompression.FilterMiddleware
 {
     public class CompressaoGZipPipeline
     {

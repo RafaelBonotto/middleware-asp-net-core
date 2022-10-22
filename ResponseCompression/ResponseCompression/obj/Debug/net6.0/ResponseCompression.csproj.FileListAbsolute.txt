@@ -25,3 +25,4 @@ C:\Users\rbonotto\Documents\Pessoal\Projetos\Git\responseCompression.Middleware.
 C:\Users\rbonotto\Documents\Pessoal\Projetos\Git\responseCompression.Middleware.NET\ResponseCompression\ResponseCompression\obj\Debug\net6.0\ResponseCompression.pdb
 C:\Users\rbonotto\Documents\Pessoal\Projetos\Git\responseCompression.Middleware.NET\ResponseCompression\ResponseCompression\obj\Debug\net6.0\ResponseCompression.genruntimeconfig.cache
 C:\Users\rbonotto\Documents\Pessoal\Projetos\Git\responseCompression.Middleware.NET\ResponseCompression\ResponseCompression\obj\Debug\net6.0\ref\ResponseCompression.dll
+C:\Users\rbonotto\Documents\Pessoal\Projetos\Git\responseCompression.Middleware.NET\ResponseCompression\ResponseCompression\bin\Debug\net6.0\Newtonsoft.Json.dll
