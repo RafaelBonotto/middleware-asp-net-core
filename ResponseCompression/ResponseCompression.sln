@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResponseCompression", "ResponseCompression\ResponseCompression.csproj", "{AF4A116C-581D-4AC6-BF86-3F6B1F66E409}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF4A116C-581D-4AC6-BF86-3F6B1F66E409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF4A116C-581D-4AC6-BF86-3F6B1F66E409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF4A116C-581D-4AC6-BF86-3F6B1F66E409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF4A116C-581D-4AC6-BF86-3F6B1F66E409}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {670FB84C-5DE6-414D-815F-8A4104C8E2B7}
+	EndGlobalSection
+EndGlobal
