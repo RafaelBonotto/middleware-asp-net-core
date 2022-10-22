@@ -23,6 +23,8 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+app.UseResponseCompression();
+
 app.MapControllers();
 
 app.Run();
