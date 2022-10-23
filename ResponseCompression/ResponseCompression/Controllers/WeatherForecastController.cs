@@ -5,7 +5,7 @@ namespace ResponseCompression.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    [MiddlewareFilter(typeof(ChecagemIndisponibilidadePipeline))]
+    //[MiddlewareFilter(typeof(ChecagemIndisponibilidadePipeline))]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -24,6 +24,7 @@ namespace ResponseCompression.Controllers
         [MiddlewareFilter(typeof(CompressaoGZipPipeline))]
         public IEnumerable<WeatherForecast> Get()
         {
+            throw new Exception("TESTE");
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
