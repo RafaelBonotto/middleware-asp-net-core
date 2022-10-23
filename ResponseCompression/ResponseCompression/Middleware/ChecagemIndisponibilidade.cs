@@ -18,9 +18,7 @@ namespace ResponseCompression.Middleware
 
         public async Task Invoke(HttpContext httpContext)
         {
-            var horarioIndisponivel = HorarioIndisponibilidade();
-
-            if (!horarioIndisponivel)
+            if (!HorarioIndisponibilidade())
             {
                 _next(httpContext); // Request Delegate passa a chamada para o próximo Middleware do pipline
             }
