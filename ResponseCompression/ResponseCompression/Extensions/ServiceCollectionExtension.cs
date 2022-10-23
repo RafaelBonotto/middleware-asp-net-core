@@ -2,7 +2,7 @@
 
 namespace ResponseCompression.Extensions
 {
-    public static class ResponseCompressionExtension
+    public static class ServiceCollectionExtension
     {
         public static void ConfigureResponseCompression(this IServiceCollection services)
         {
