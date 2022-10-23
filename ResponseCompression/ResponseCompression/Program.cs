@@ -1,4 +1,5 @@
 using ResponseCompression.Extensions;
+using ResponseCompression.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,5 +30,7 @@ app.UseAuthorization();
 //app.UseResponseCompression();
 
 app.MapControllers();
+
+app.UseMiddleware<ResponsePattern>();
 
 app.Run();
